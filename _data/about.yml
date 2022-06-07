@@ -4,5 +4,5 @@ about_descript: 'Tralution is an IT managed services and technology consulting c
                     With over 15 years of experience in IT across various different industries we bring the technical expertise
                     that your company needs.'
 browse_free_btn_text: 'Contact Us'
-browse_free_btn_link: 'contact'
+browse_free_btn_link: '/contact'
 image: 'img/about-img.png'

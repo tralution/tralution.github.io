@@ -245,10 +245,12 @@
 
 .page-top-section {
     background: url(../img/footer/page-top-bg.jpg) center/cover;
-    padding-top: 235px;
+    //padding-top: 235px;
+    padding-top: 100px;
     padding-bottom: 40px;
     .page-top-nav {
         text-align: right;
+        display: none;
         @media(max-width: 767px) {
             text-align:left;
             margin-top: 30px;
