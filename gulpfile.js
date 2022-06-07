@@ -79,7 +79,6 @@ function watch() {
     [
     '*.html',
     '_layouts/*.html',
-    '_pages/*',
     '_posts/*',
     '_data/*.yml',
     '_data/*.json',

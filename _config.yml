@@ -32,18 +32,6 @@ google_analytics:
 # disqus comment
 disqus_shortname: softdash
 
-
-####################################
-######     Hero start     ######
-####################################
-# product_background_image          sass
-# product_fixed_image               saas_video             
-# product                           sass_background_image
-# product_slider                    sass_fixed_image
-# product_video                     sass_slider       
-
-hero: 'product_fixed_image'
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
