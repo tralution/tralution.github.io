@@ -14,7 +14,7 @@ baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://tralution.com" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'img/favicon.png'
 
-paginate: 0
+paginate: 12
 paginate_path: "/blog/page:num/"
 
 sass:
