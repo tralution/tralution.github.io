@@ -1,11 +1,11 @@
 
 # sass [ only one image ]
-sass_name: 'We Made our <br> Software 100% Errorless'
-sass_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+sass_name: 'We Take Away <br> Your Technology Worries'
+sass_text: 'Technology can sometimes be stressful and overwhelming. Let us manage your technology needs so you don''t need to.  Our team of experts will work with you to find the right solutions that fit your organizations needs.'
 sass_image: 'img/hero/hero-img.png'
-sass_btn_one_link: '#'
-sass_btn_one_text:  'Start a project'
-sass_btn_two_link: '#'
+sass_btn_one_link: '/contact'
+sass_btn_one_text:  'Contact Us'
+sass_btn_two_link: '/pricing'
 sass_btn_two_text: ' View Pricing '
 
 # saas_video [ video type mp4 ]
