@@ -13,7 +13,7 @@ plan_starter_price: '<span>$XX</span>/device/mo'
 plan_starter_description: '<li>2 support hours</li>
                                 <li>TBD</li>
                                 <li>TBD</li>'
-plan_starter_url: 'contact'
+plan_starter_url: '/contact'
 plan_starter_btn_text: 'Get Started'
 
 # Team Plan
@@ -23,7 +23,7 @@ plan_standard_price: '<span>$XX</span>/device/mo'
 plan_standard_description: ' <li>4 support housrs</li>
                                 <li>TBD</li>
                                 <li>TBD</li>'
-plan_standard_url: 'contact'
+plan_standard_url: '/contact'
 plan_standard_btn_text: 'Get Started'
 
 
@@ -36,7 +36,7 @@ plan_business_description: ' <li>TBD</li>
                                 <li>TBD</li>
                                 <li>TBD</li>'
 
-plan_business_url: 'contact'
+plan_business_url: '/contact'
 plan_business_btn_text: 'Get Started'
 
 
