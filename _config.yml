@@ -2,18 +2,16 @@
 ####################################
 ######     Global start     ######
 ####################################
-name                : 'Ducor'
-title               : 'Softdash - Creative SaaS And Software HTML5 Jekyll Template'
+name                : 'Tralution'
+title               : 'Tralution'
 email               : demo@example.com
-address             : '2216 Park Avenue, California 95630 '
-phone               : 0185612012035
+address             : ''
+phone               : 
 tagline             : 'description for your new site here' 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  IT managed services and technology consulting.
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://softdash.jekylltemplate.com" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+url                 : "https://tralution.com" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'img/favicon.png'
 
 paginate: 12
@@ -74,8 +72,8 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2021 All rights reserved to
-company_url: '#'
+copyright_text: Copyright © 2021 All rights reserved to Tralution
+company_url: 'https://tralution.com'
 
 
 # SEO Related

@@ -43,10 +43,6 @@ header:
     #     title: 'Home - Product Video'
     #     link: '/multiple/index9/'
         
-  - name: 'Features'
-    title: 'Features'
-    link: '/features/'
-
   - name: 'about'
     title: 'about'
     link: '/about/'
@@ -54,10 +50,6 @@ header:
   - name: 'pricing'
     title: 'pricing'
     link: '/pricing/'
-
-  - name: 'blog'
-    title: 'blog'
-    link: '/blog/'
 
   - name: 'contact'
     title: 'contact'
