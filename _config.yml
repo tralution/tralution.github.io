@@ -25,7 +25,9 @@ sass:
 markdown            : kramdown
 
 # google_analytics
-google_analytics: G-FZFME2XJ29
+google_analytics: 'G-FZFME2XJ29'
+noodle: 'Tralution'
+
 
 # disqus comment
 disqus_shortname: softdash
@@ -72,7 +74,7 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2021 All rights reserved to Tralution
+copyright_text: Copyright © 2021 All rights reserved to 
 company_url: 'https://tralution.com'
 
 
@@ -99,21 +101,21 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : G-FZFME2XJ29
+    tracking_id          : 
     anonymize_ip         : # true, false (default)
 
 #timezone: 'US' # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 #google map api key
 
-map: 
-  key: 'AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA'
-  let: 40.6700
-  lng: -73.9400
-  zoom: 11
-  title: '121 King William Street, Snazzy'
+#map: 
+#  key: 'AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA'
+#  let: 40.6700
+#  lng: -73.9400
+#  zoom: 11
+#  title: '121 King William Street, Snazzy'
 
 
 
