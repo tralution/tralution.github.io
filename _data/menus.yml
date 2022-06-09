@@ -51,3 +51,7 @@ header:
     title: 'pricing'
     link: '/pricing/'
     
+  - name: 'contact'
+    title: 'contact'
+    link: '/contact/'
+    
