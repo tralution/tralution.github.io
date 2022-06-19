@@ -8,34 +8,39 @@ pricing_table_description: "Support packages are priced per device per month."
 
 # Personal Plan
 plan_starter_name: Basic Support
-plan_starter_tagline: Basic support
-plan_starter_price: '<span>$XX</span>/device/mo'
+plan_starter_tagline: 'priced per device'
+plan_starter_price: ''
 plan_starter_description: '<li>2 support hours</li>
                                 <li>OS patching</li>
                                 <li>Wireless management</li>
-                                <li>Firewall management</li>'
+                                <li>Firewall management</li>
+                                <li>Backup management</li>'
 plan_starter_url: '/contact'
 plan_starter_btn_text: 'Get Pricing'
 
 # Team Plan
 plan_standard_name: Premium Support
-plan_standard_tagline: Premium support
-plan_standard_price: '<span>$XX</span>/device/mo'
-plan_standard_description: ' <li>4 support hours</li>
-                                <li>TBD</li>
-                                <li>TBD</li>'
+plan_standard_tagline: priced per device
+plan_standard_price: ''
+plan_standard_description: ' <li>Everything in Basic</li>
+                                <li>+2 support hours</li>
+                                <li>License management</li>
+                                <li>Phishing tests</li>
+                                <li>Security training</li>'
 plan_standard_url: '/contact'
 plan_standard_btn_text: 'Get Pricing'
 
 
 # business Plan
 plan_business_name: Consulting
-plan_business_tagline: Consulting
-plan_business_price: '<span>Contact Us</span>'
+plan_business_tagline: 'priced hourly'
+plan_business_price: ''
 plan_business_description: '<span>TBD</span>/hr'
-plan_business_description: ' <li>TBD</li>
-                                <li>TBD</li>
-                                <li>TBD</li>'
+plan_business_description: ' <li>System design</li>
+                                <li>Audit assistance</li>
+                                <li>Wireless surveys</li>
+                                <li>Data migrations</li>
+                                <li>Plus more!</li>'
 
 plan_business_url: '/contact'
 plan_business_btn_text: 'Get Pricing'
