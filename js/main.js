@@ -136,7 +136,7 @@ $(document).ready(function () {
 
         // Account for home page with empty path
         if (path === '') {
-            path = 'index.html';
+            path = 'index.php';
         }
 
         var target = $('nav a[href="' + path + '"]');
@@ -366,12 +366,9 @@ $(document).ready(function () {
     if (document.getElementById("map")) {
         google.maps.event.addDomListener(window, 'load', init);
         function init() {
-
-            const map_data = JSON.parse(localStorage.getItem("du_google_map_data"));
-
             var mapOptions = {
-                zoom: parseInt(map_data.zoom),
-                center: new google.maps.LatLng(map_data.let, map_data.lng), // New York
+                zoom: 11,
+                center: new google.maps.LatLng(40.6700, -73.9400), // New York
                 styles: [{
                     "featureType": "water",
                     "elementType": "geometry",
@@ -493,7 +490,7 @@ $(document).ready(function () {
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(map_data.let,  map_data.lng),
+                position: new google.maps.LatLng(40.6700, -73.9400),
                 map: map,
                 title: 'Snazzy!'
             });

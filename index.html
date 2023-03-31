@@ -1,30 +1,710 @@
----
-layout: default
-hero: sass
----
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
 
-{% include hero.html %}
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Author Meta -->
+    <meta name="Tralution" content="Managed Services, Consulting">
+    <!-- Meta Description -->
+    <meta name="description" content="Managed Services, Consulting">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="Managed Services, Consulting">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Tralution</title>
 
-{% comment %}
-{% include section/feature.html %}
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Numans:100,300,400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,900" rel="stylesheet">
+    <!-- ===========================================
+		CSS
+	============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
 
-{% include section/marketing.html %}
+<body class="version3">
+    <!-- start Header Area -->
+    <header id="header2">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <div id="logo">
+                    <a href="index.html">
+                        <img class="logo-1" src="img/logo3.png" alt="" title="" />
+                    </a>
+                    <a href="index.html">
+                        <img class="logo-2" src="img/logo.png" alt="" title="" />
+                    </a>
+                </div>
+                <div class="nav-wrap d-flex flex-row align-items-center">
+                    <nav id="nav-menu-container">
+                        <ul class="nav-menu nav-menu2">
+                            <li class="menu-has-children">
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="#features">Features</a>
+                            </li>
+                            <li>
+                                <a href="#pricing">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#about">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <!--TODO <li>
+                                <a href="#portals">Login</a>
+                            </li>
+                            <!--TODO <li>
+                                <a href="#testimonials">Testimonials</a>
+                            </li>-->
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-wrap d-flex flex-row align-items-center">
+                    <!--<a class="genric-btn" href="#contact">Login</a>-->
+                </div>
+                <!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header>
+    <!-- End Header Area -->
 
-{% include section/stat.html %}
+    <!-- Start hero-section -->
+    <section class="hero-section relative">
+        <div class="container">
+            <div class="row fullscreen align-items-center relative">
+                <div class="content-wrap">
+                    <h1>
+                        Lead with Kindness
+                        <br>Empower with Technology
+                    </h1>
+                    <p class="pt-20 pb-20 mw-510">
+                        Our team of experts are here to take the burden of technology management off your shoulders, so that you can enjoy all the benefits of your devices without the hassle.
+                    </p>
+                    <a href="#contact" class="genric-btn scrollto">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <img class="hero-img" src="img/test-mockup.png" alt="">
+    </section>
+    <!-- End hero-section -->
 
-{% include section/cta.html %}
+    <!-- Start feature section -->
+    <section id="features" class="feature-section pb-120 pt-90 section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>Features</h1>
+                </div>
+            <div class="row feature-left-wrapr" style="height: 700px;">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature aquablue-bg">
+                        <div class="icon">
+                            <span>
+                                <img width="39" height="40" src="img/feature/i1.png"
+                                    class="attachment-image_icon_40x40 size-image_icon_40x40" alt=""> </span>
+                        </div>
+                        <div class="desc">
+                            <h4>Collaboration</h4>
+                            <p class="mb-0">
+                                By working closely with you, we can provide solutions that are tailored to your specific needs.<br/><br/>
 
-{% include section/social.html %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-{% include section/price.html %}
 
-{% include section/unique-feature.html %}
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature aquablue-bg">
+                        <div class="icon">
+                            <span>
+                                <img width="40" height="40" src="img/feature/i3.png"
+                                    class="attachment-image_icon_40x40 size-image_icon_40x40" alt=""> </span>
+                        </div>
+                        <div class="desc">
+                            <h4>Predictable Costs</h4>
+                            <p class="mb-0">
+                                We provide a clear breakdown of our costs upfront, so you can budget more effectively and plan for the future with confidence.
 
-{% include section/brands.html %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-{% include section/client-review.html %}
 
-{% include section/blog.html %}
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-feature aquablue-bg">
+                        <div class="icon">
+                            <span>
+                                <img width="40" height="36" src="img/feature/i4.png"
+                                    class="attachment-image_icon_40x40 size-image_icon_40x40" alt=""> </span>
+                        </div>
+                        <div class="desc">
+                            <h4>Proactive Monitoring</h4>
+                            <p class="mb-0">
+                                We can help you identify areas for improvement, optimize your systems, and reduce the risk of costly downtime.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End feature Area -->
 
-{% include section/contact.html %}
-{% endcomment %}
+    <!-- Start price section -->
+    <section id="pricing" class="price-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>Transparent Pricing</h1>
+                    <p>
+                        We provide a clear breakdown of our pricing, so you can see exactly what services you're receiving and how much they cost.  <span style="font-weight: 600;">We do offer discounted pricing for 501(c)(3) organizations.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-price">
+                        <div class="price-top text-center relative">
+                            <div class="pack-desc relative">
+                                <h4>Basic Support</h4>
+                                <p>
+                                    Priced per device
+                                </p>
+                            </div>
+                            <div class="price relative">
+                                <p>
+                                    <span>$45</span>/mo</p>
+                            </div>
+                        </div>
+                        <div class="price-bottom">
+                            <ul class="packlist">
+                                <li class="">
+                                    <span>2 Support Hours</span>
+                                </li>
+                                <li class="">
+                                    <span>OS Patching</span>
+                                </li>
+                                <li class="">
+                                    <span>Wireless Management</span>
+                                </li>
+                                <li class="">
+                                    <span>Firewall Management</span>
+                                </li>
+                                <li class="">
+                                    <span>Backup Management</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="genric-btn2 scrollto">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="single-price">
+                        <div class="price-top text-center relative">
+                            <div class="pack-desc relative">
+                                <h4>Premium Support</h4>
+                                <p>
+                                    Priced per device
+                                </p>
+                            </div>
+                            <div class="price relative">
+                                <p>
+                                    <span>$65</span>/mo</p>
+                            </div>
+                        </div>
+                        <div class="price-bottom">
+                            <ul class="packlist">
+                                <li class="">
+                                    <span>Everything in Basic</span>
+                                </li>
+                                <li class="">
+                                    <span>+2 Support Hours</span>
+                                </li>
+                                <li class="">
+                                    <span>License Management</span>
+                                </li>
+                                <li class="">
+                                    <span>Phishing Tests</span>
+                                </li>
+                                <li class="">
+                                    <span>Security Training</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="genric-btn2 scrollto">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="single-price">
+                        <div class="price-top text-center relative">
+                            <div class="pack-desc relative">
+                                <h4>Consulting</h4>
+                                <p>
+                                    Priced hourly
+                                </p>
+                            </div>
+                            <div class="price relative">
+                                <p>
+                                    <span>$150</span>/hour</p>
+                            </div>
+                        </div>
+                        <div class="price-bottom">
+                            <ul class="packlist">
+                                <li class="">
+                                    <span>System Design</span>
+                                </li>
+                                <li class="">
+                                    <span>Audit Assistance</span>
+                                </li>
+                                <li class="">
+                                    <span>Wireless Surveys</span>
+                                </li>
+                                <li class="">
+                                    <span>Data Migrations</span>
+                                </li>
+                                <li class="">
+                                    <span>Plus More!</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="genric-btn2 scrollto">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End price section -->
+
+    <!-- Start about us Area -->
+    <section id="about" class="unique-feature-area section-gap">
+        <div class="container-fluid">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>We are Tralution </h1>
+                    <p>
+                        At Tralution, we have over 15 years of experience providing technology services to businesses across a variety of industries. Our focus on ethical and compassionate practices sets us apart, and we're proud to be a company founded on the mantra of "Be Kind and Do Good Things."
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4" style="margin-left: auto; margin-right: auto; height: 700px">
+                    <img style="display: block; margin: auto" src="img/about-img-2.png" alt="">
+                </div>
+                <!--<div class="col-lg-6 pr-5">
+                    <div class="active-execution-carusel">
+                        <img class="img-fluid" src="img/carusel/c1.png" alt="">
+                        <img class="img-fluid" src="img/carusel/c2.png" alt="">
+                        <img class="img-fluid" src="img/carusel/c3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 pl-4">
+                    <div class="feature-list d-flex flex-row">
+                        <!-- TODO -->
+                        <!--<div class="icon">
+                            <img class="img-fluid" src="img/feature/f1.png" alt="">
+                        </div>
+                        <div class="desc ml-40">
+                            <a href="#">
+                                <h4 class="mb-20">Certifications</h4>
+                            </a>
+                            <p>
+                                We all live in an age that belongs to the young at heart. Life that is becoming
+                                extremely fast, day to day, also asks us to remain.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature-list d-flex flex-row">
+                        <div class="icon">
+                            <img class="img-fluid" src="img/feature/f2.png" alt="">
+                        </div>
+                        <div class="desc ml-40">
+                            <a href="#">
+                                <h4 class="mb-20">Page Builder</h4>
+                            </a>
+                            <p>
+                                Vera sought out counseling with me because her doctor advised her to discover the
+                                emotional causes of her chronic fatigue.
+                            </p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!-- End about us Area -->
+
+    <!-- Start client-review section -->
+    <!-- TODO
+    <section id="testimonials" class="client-review-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>Testimonials</h1>
+                    <p>
+                        Possibly leave this description area out
+                    </p>
+                </div>
+            </div>
+            <div class="active-review-carusel" style="height: 600px">
+                <div class="single-review">
+                    <div class="quote-wrap">
+                        <p>
+                            “Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed do eiusmod tempor.”
+                        </p>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="userinfo-wrap aquablue-bg d-flex flex-row align-items-center relative">
+                        <div class="overlay overlay-bg"></div>
+                        <div class="thumb relative">
+                            <img src="img/review/u2.png" alt="">
+                        </div>
+                        <div class="details relative">
+                            <h4>Vera Ball</h4>
+                            <p>Head of Marketing, Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-review">
+                    <div class="quote-wrap">
+                        <p>
+                            “Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed do eiusmod tempor.”
+                        </p>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="userinfo-wrap aquablue-bg d-flex flex-row align-items-center relative">
+                        <div class="overlay overlay-bg"></div>
+                        <div class="thumb relative">
+                            <img src="img/review/u3.png" alt="">
+                        </div>
+                        <div class="details relative">
+                            <h4>Derek Malone</h4>
+                            <p>Head of Sales, Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-review">
+                    <div class="quote-wrap">
+                        <p>
+                            “Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed do eiusmod tempor.”
+                        </p>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="userinfo-wrap aquablue-bg d-flex flex-row align-items-center relative">
+                        <div class="overlay overlay-bg"></div>
+                        <div class="thumb relative">
+                            <img src="img/review/u1.png" alt="">
+                        </div>
+                        <div class="details relative">
+                            <h4>Stella Pierce</h4>
+                            <p>Head of Advertise, Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End client-review section -->
+
+    <!-- Start contact section -->
+    <!--TODO-->
+    <section id="contact" class="contact-section section-gap" style="height: 900px;">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>Contact Us</h1>
+                    <p>
+                        One of our sales representatives will reach out to you to answer any questions you have and discuss how we can help lessen your technology burdens.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-start">
+                <div class="col-lg-6 col-md-6 contact-left">
+                </div>
+            </div>
+                <div class="col-lg-5 col-md-6 contact-right" style="margin-left: auto; margin-right: auto;">                    
+                    <form action="https://crm.zoho.com/crm/WebToLeadForm" class="contact-form form-area text-right" name="WebToLeads5341783000000368202" method="POST" onsubmit="javascript:document.charset=&quot;UTF-8&quot;; return checkMandatory5341783000000368202()" accept-charset="UTF-8">
+                        <input type="text" style="display:none;" name="xnQsjsdp" value="f963d017a7e58ce9831fb8128ab66d6c26eae05cf5d1a5976d576056a6237774"> 
+                        <input type="hidden" name="zc_gad" id="zc_gad" value=""> 
+                        <input type="text" style="display:none;" name="xmIwtLD" value="b75f8bf06debb18c2fd683000e7fb733c964467bbb6f702a9be858e12fa8ab53"> 
+                        <input type="text" style="display:none;" name="actionType" value="TGVhZHM=">
+                        <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;tralution.com&#x2f;thankyou.html' > </input> 
+                         <!-- Do not remove above code. -->
+                            <label style="text-align: left;" for="">First Name</label>
+                            <input type="text" id="First_Name" name="First Name" maxlength="40" placeholder="Enter your first name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your first name'" class="common-input mb-20 form-control" required="">
+                            <label style="text-align: left;" for="">Last Name</label>
+                            <input type="text" id="Last_Name" name="Last Name" maxlength="40" placeholder="Enter your last name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your last name'" class="common-input mb-20 form-control" required="">
+                            <label style="text-align: left;" for="">Organization Name</label>
+                            <input type="text" id="Company" name="Company" maxlength="200" placeholder="Enter your organization name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your organization name'" class="common-input mb-20 form-control" required="">
+                            <label style="text-align: left;" for="">Phone Number</label><input type="text" id="Phone" name="Phone" maxlength="30" placeholder="Enter your phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your phone number'" class="common-input mb-20 form-control" required="">
+                            <label style="text-align: left;" for="">Email Address</label>    
+                            <input type="text" id="Email" name="Email" maxlength="100" placeholder="Enter your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email address'" class="common-input mb-20 form-control" required="">
+                            <div class="d-flex flex-column">
+                            <input class="genric-btn d-block mt-30 mr-0 ml-auto" type="submit" id="formsubmit" value="Submit" title="Submit">
+                            </div>
+                            <script>
+			function validateEmail5341783000000368202()
+			{
+				var form = document.forms['WebToLeads5341783000000368202'];
+				var emailFld = form.querySelectorAll('[ftype=email]');
+				var i;
+				for (i = 0; i < emailFld.length; i++)
+				{
+					var emailVal = emailFld[i].value;
+					if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
+					{
+						var atpos=emailVal.indexOf('@');
+						var dotpos=emailVal.lastIndexOf('.');
+						if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
+						{
+							alert('Please enter a valid email address. ');
+							emailFld[i].focus();
+							return false;
+						}
+					}
+				}
+				return true;
+			}
+
+			  function checkMandatory5341783000000368202() {
+				var mndFileds = new Array('Company','First Name','Last Name','Email','Phone');
+				var fldLangVal = new Array('Company','First\x20Name','Last\x20Name','Email','Phone');
+				for(i=0;i<mndFileds.length;i++) {
+				  var fieldObj=document.forms['WebToLeads5341783000000368202'][mndFileds[i]];
+				  if(fieldObj) {
+					if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+					 if(fieldObj.type =='file')
+						{ 
+						 alert('Please select a file to upload.'); 
+						 fieldObj.focus(); 
+						 return false;
+						} 
+					alert(fldLangVal[i] +' cannot be empty.'); 
+					  fieldObj.focus();
+					  return false;
+					}  else if(fieldObj.nodeName=='SELECT') {
+					 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+						alert(fldLangVal[i] +' cannot be none.'); 
+						fieldObj.focus();
+						return false;
+					   }
+					} else if(fieldObj.type =='checkbox'){
+					 if(fieldObj.checked == false){
+						alert('Please accept  '+fldLangVal[i]);
+						fieldObj.focus();
+						return false;
+					   } 
+					 } 
+					 try {
+					     if(fieldObj.name == 'Last Name') {
+						name = fieldObj.value;
+					    }
+					} catch (e) {}
+				    }
+				}
+				if(!validateEmail5341783000000368202()){return false;}
+				document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+			}
+
+		function tooltipShow5341783000000368202(el){
+			var tooltip = el.nextElementSibling;
+			var tooltipDisplay = tooltip.style.display;
+			if(tooltipDisplay == 'none'){
+				var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+				for(i=0; i<allTooltip.length; i++){
+					allTooltip[i].style.display='none';
+				}
+				tooltip.style.display = 'block';
+			}else{
+				tooltip.style.display='none';
+			}
+		}
+		</script>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- End contact section -->
+
+    <!-- Start portals section -->
+    <!-- TODO
+    <section id="portals" class="portal-section section-gap">
+        <div class="container" style="height: 900px;">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>Portals</h1>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-start">
+                <div class="col-lg-6 col-md-6 contact-left">
+                Ticket Portal - Coming Soon!
+                </div>
+                <div class="col-lg-5 col-md-6 contact-right">
+                Billing Portal - Coming Soon!
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End portals section -->
+    
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>About Us</h4>
+                        <p>
+                            Our team is passionate about our mantra of "Be Kind and Do Good Things," and we bring that same dedication to every project we take on.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>Resources</h4>
+                        <ul class="menu-list">
+                            <li>
+                                <a href="#">Guides</a>
+                            </li>
+                            <li>
+                                <a href="#">Research</a>
+                            </li>
+                            <li>
+                                <a href="#">Experts</a>
+                            </li>
+                            <li>
+                                <a href="#">Agencies</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>Features</h4>
+                        <ul class="menu-list">
+                            <li>
+                                <a href="#">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="#">Brand Assets</a>
+                            </li>
+                            <li>
+                                <a href="#">Investor Relations</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms of Service</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>Follow Us</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>You can trust us. we only send promo offers, not a single spam.</p>
+                        <div class="d-flex flex-row newsletter-form" id="mc_embed_signup">
+                            <form class="navbar-form" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get">
+                                <div class="d-flex form-wrap">
+                                    <input class="form-control" name="EMAIL" autocomplete="email" placeholder="Your email address"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'"
+                                        required="" type="email">
+                                    <button class="submit-btn">
+                                        <span class="lnr lnr-arrow-right"></span>
+                                    </button>
+                                </div>
+                                <div class="info mt-20"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom row justify-content-center mt-70">
+                <p class="footer-text m-0 col-lg-6 col-md-12">Copyright © 2022 All rights reserved to Tralution
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.vide.min.js"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
